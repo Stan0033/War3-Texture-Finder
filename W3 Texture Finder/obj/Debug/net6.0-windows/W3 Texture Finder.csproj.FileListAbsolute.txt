@@ -1,0 +1,30 @@
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder_MarkupCompile.cache
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder_MarkupCompile.lref
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder.csproj.AssemblyReference.cache
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\bin\Debug\net6.0-windows\W3 Texture Finder.exe
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\bin\Debug\net6.0-windows\W3 Texture Finder.deps.json
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\bin\Debug\net6.0-windows\W3 Texture Finder.runtimeconfig.json
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\bin\Debug\net6.0-windows\W3 Texture Finder.dll
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\bin\Debug\net6.0-windows\W3 Texture Finder.pdb
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\bin\Debug\net6.0-windows\DotNetZip.dll
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\bin\Debug\net6.0-windows\War3Net.Common.dll
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\bin\Debug\net6.0-windows\War3Net.Drawing.Blp.dll
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\bin\Debug\net6.0-windows\War3Net.IO.Compression.dll
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\bin\Debug\net6.0-windows\War3Net.IO.Mpq.dll
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder.g.resources
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder.AssemblyInfoInputs.cache
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder.AssemblyInfo.cs
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder.csproj.CoreCompileInputs.cache
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder.csproj.CopyComplete
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder.dll
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\refint\W3 Texture Finder.dll
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder.pdb
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder.genruntimeconfig.cache
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\ref\W3 Texture Finder.dll
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\W3 Texture Finder_Content.g.cs
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\Input.g.cs
+C:\Users\stan0033_PC\source\repos\W3 Texture Finder\W3 Texture Finder\obj\Debug\net6.0-windows\Input.baml
