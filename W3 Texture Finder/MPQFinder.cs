@@ -61,7 +61,7 @@ namespace W3_Texture_Finder
         public static bool Findwar3()
         {
             if (File.Exists(MPQPaths.War3)) { return true; }
-            MessageBox.Show("Find war3.MPQ");
+            MessageBox.Show("Find war3.MPQ", "Setup");
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "war3.MPQ|war3.MPQ";
             bool? result = openFileDialog.ShowDialog();
@@ -80,7 +80,7 @@ namespace W3_Texture_Finder
         public static bool Findwar3x()
         {
             if (File.Exists(MPQPaths.War3X)) { return true; }
-            MessageBox.Show("Find war3x.MPQ");
+            MessageBox.Show("Find war3x.MPQ", "Setup");
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "war3x.MPQ|war3x.MPQ";
             bool? result = openFileDialog.ShowDialog();
@@ -98,7 +98,7 @@ namespace W3_Texture_Finder
         public static bool Findwar3xlocal()
         {
             if (File.Exists(MPQPaths.War3xLocal)) { return true; }
-            MessageBox.Show("Find war3xLocal.MPQ");
+            MessageBox.Show("Find war3xLocal.MPQ", "Setup");
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "war3xLocal.MPQ|war3xLocal.MPQ";
             bool? result = openFileDialog.ShowDialog();
@@ -116,7 +116,7 @@ namespace W3_Texture_Finder
         public static bool Findwar3Patch()
         {
             if (File.Exists(MPQPaths.War3Patch)) { return true; }
-            MessageBox.Show("Find war3Patch.MPQ");
+            MessageBox.Show("Find war3Patch.MPQ", "Setup");
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "war3Patch.MPQ|war3Patch.MPQ";
             bool? result = openFileDialog.ShowDialog();

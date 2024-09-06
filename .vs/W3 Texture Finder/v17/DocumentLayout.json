@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\War3-Texture-Finder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D717A505-9175-42D8-A49D-2F53D9A9BD69}|W3 Texture Finder\\W3 Texture Finder.csproj|c:\\github\\war3-texture-finder\\w3 texture finder\\mpqfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D717A505-9175-42D8-A49D-2F53D9A9BD69}|W3 Texture Finder\\W3 Texture Finder.csproj|solutionrelative:w3 texture finder\\mpqfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MPQFinder.cs",
+              "DocumentMoniker": "C:\\Github\\War3-Texture-Finder\\W3 Texture Finder\\MPQFinder.cs",
+              "RelativeDocumentMoniker": "W3 Texture Finder\\MPQFinder.cs",
+              "ToolTip": "C:\\Github\\War3-Texture-Finder\\W3 Texture Finder\\MPQFinder.cs",
+              "RelativeToolTip": "W3 Texture Finder\\MPQFinder.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAADwv4cAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T01:08:57.771Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

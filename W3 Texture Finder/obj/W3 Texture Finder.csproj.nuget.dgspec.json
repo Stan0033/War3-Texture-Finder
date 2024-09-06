@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\W3 Texture Finder\\W3 Texture Finder\\W3 Texture Finder.csproj": {}
+    "C:\\Github\\War3-Texture-Finder\\W3 Texture Finder\\W3 Texture Finder.csproj": {}
   },
   "projects": {
-    "C:\\Github\\W3 Texture Finder\\W3 Texture Finder\\W3 Texture Finder.csproj": {
+    "C:\\Github\\War3-Texture-Finder\\W3 Texture Finder\\W3 Texture Finder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\W3 Texture Finder\\W3 Texture Finder\\W3 Texture Finder.csproj",
+        "projectUniqueName": "C:\\Github\\War3-Texture-Finder\\W3 Texture Finder\\W3 Texture Finder.csproj",
         "projectName": "W3 Texture Finder",
-        "projectPath": "C:\\Github\\W3 Texture Finder\\W3 Texture Finder\\W3 Texture Finder.csproj",
+        "projectPath": "C:\\Github\\War3-Texture-Finder\\W3 Texture Finder\\W3 Texture Finder.csproj",
         "packagesPath": "C:\\Users\\stan0033_laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\W3 Texture Finder\\W3 Texture Finder\\obj\\",
+        "outputPath": "C:\\Github\\War3-Texture-Finder\\W3 Texture Finder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
