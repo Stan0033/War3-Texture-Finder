@@ -9,7 +9,7 @@
         WindowStartupLocation="CenterScreen"
         Title="Note" Height="110" Width="250">
     <StackPanel>
-        <TextBox Name="box" FontSize="16" Margin="5"></TextBox>
+        <TextBox Name="box" FontSize="16" Margin="5" KeyDown="EnterOK"></TextBox>
         <Button FontSize="16" Margin="5" Click="set">OK</Button>
     </StackPanel>
 </Window>

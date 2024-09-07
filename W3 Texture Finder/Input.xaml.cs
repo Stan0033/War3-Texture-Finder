@@ -22,11 +22,21 @@ namespace W3_Texture_Finder
         public Input()
         {
             InitializeComponent();
+            box.Focus();
         }
 
         private void set(object sender, RoutedEventArgs e)
         {
             if (box.Text.Trim().Length > 0) { DialogResult = true; }
+        }
+
+        private void EnterOK(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                set(null, null);
+            }
+           
         }
     }
 }

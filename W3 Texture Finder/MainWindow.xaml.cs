@@ -97,7 +97,7 @@ namespace W3_Texture_Finder
             if (e.Key == Key.Enter)
             {
                 Resultbox.Items.Clear();
-                string searched = Searchbox.Text.Trim();
+                string searched = Searchbox.Text.Trim().ToLower();
                 if (searched.Length == 0)
                 {
                     foreach (string s in MPQHelper.Listfile_All)
@@ -109,7 +109,7 @@ namespace W3_Texture_Finder
                 {
                     foreach (string s in MPQHelper.Listfile_All)
                     {
-                        if (s.Contains(searched))
+                        if (s.ToLower() .Contains(searched))
                         {
                             Resultbox.Items.Add(new ListBoxItem() { Content = s });
                         }
