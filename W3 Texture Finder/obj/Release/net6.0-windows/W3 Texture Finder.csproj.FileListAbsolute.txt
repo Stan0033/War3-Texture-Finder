@@ -1,0 +1,26 @@
+C:\Github\War3-Texture-Finder\W3 Texture Finder\bin\Release\net6.0-windows\W3 Texture Finder.exe
+C:\Github\War3-Texture-Finder\W3 Texture Finder\bin\Release\net6.0-windows\W3 Texture Finder.deps.json
+C:\Github\War3-Texture-Finder\W3 Texture Finder\bin\Release\net6.0-windows\W3 Texture Finder.runtimeconfig.json
+C:\Github\War3-Texture-Finder\W3 Texture Finder\bin\Release\net6.0-windows\W3 Texture Finder.dll
+C:\Github\War3-Texture-Finder\W3 Texture Finder\bin\Release\net6.0-windows\W3 Texture Finder.pdb
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.csproj.AssemblyReference.cache
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\Input.g.cs
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\App.g.cs
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder_Content.g.cs
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder_MarkupCompile.cache
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder_MarkupCompile.lref
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\Input.baml
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\MainWindow.baml
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.g.resources
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.AssemblyInfoInputs.cache
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.AssemblyInfo.cs
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.csproj.CoreCompileInputs.cache
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.sourcelink.json
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.dll
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\refint\W3 Texture Finder.dll
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.pdb
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.genruntimeconfig.cache
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\ref\W3 Texture Finder.dll
+C:\Github\War3-Texture-Finder\W3 Texture Finder\obj\Release\net6.0-windows\W3 Texture Finder.csproj.Fody.CopyLocal.cache

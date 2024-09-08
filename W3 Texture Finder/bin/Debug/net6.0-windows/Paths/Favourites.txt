@@ -1,2 +1,0 @@
-rock|ReplaceableTextures\Splats\test.blp
-hi|ReplaceableTextures\Selection\SpellAreaOfEffect.blp

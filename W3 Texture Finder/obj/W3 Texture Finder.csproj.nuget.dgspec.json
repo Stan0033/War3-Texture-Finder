@@ -50,6 +50,16 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Costura.Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "ILMerge": {
+              "target": "Package",
+              "version": "[3.0.41, )"
+            },
             "War3Net.Drawing.Blp": {
               "target": "Package",
               "version": "[5.6.1, )"
