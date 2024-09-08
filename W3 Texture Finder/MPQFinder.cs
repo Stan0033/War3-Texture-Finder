@@ -2,6 +2,9 @@
 using System.IO;
 using System.Reflection;
 using System.Windows;
+using System.Collections.Generic;
+using System;
+using System.Linq;
 
 namespace W3_Texture_Finder
 {

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
+    "net5.0-windows7.0": {
       "Costura.Fody/5.7.0": {
         "type": "package",
         "dependencies": {
@@ -46,12 +46,6 @@
           "build/Fody.targets": {}
         }
       },
-      "ILMerge/3.0.41": {
-        "type": "package",
-        "build": {
-          "build/ILMerge.props": {}
-        }
-      },
       "Microsoft.NETCore.Platforms/3.1.1": {
         "type": "package",
         "compile": {
@@ -86,12 +80,12 @@
       "Microsoft.Win32.SystemEvents/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+          "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+          "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
             "related": ".xml"
           }
         },
@@ -99,7 +93,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+          "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -471,12 +465,12 @@
           "Microsoft.Win32.SystemEvents": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Drawing.Common.dll": {
+          "lib/netcoreapp3.1/System.Drawing.Common.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.Drawing.Common.dll": {
+          "lib/netcoreapp3.1/System.Drawing.Common.dll": {
             "related": ".xml"
           }
         },
@@ -484,11 +478,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/net6.0/System.Drawing.Common.dll": {
+          "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.dll": {
             "assetType": "runtime",
             "rid": "unix"
           },
-          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+          "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1632,22 +1626,6 @@
         "netstandardtask/Mono.Cecil.Rocks.pdb",
         "netstandardtask/Mono.Cecil.dll",
         "netstandardtask/Mono.Cecil.pdb"
-      ]
-    },
-    "ILMerge/3.0.41": {
-      "sha512": "u9n45xs40bSGoNFcmMYJkh3zkGYKR4BqzQaX2uHc2Ay4drdiQOTeo/1ECps3ttDXOu4Q6qbTnsIbQWb/06ShqA==",
-      "type": "package",
-      "path": "ilmerge/3.0.41",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/ILMerge.props",
-        "docs/ilmerge-manual.md",
-        "ilmerge.3.0.41.nupkg.sha512",
-        "ilmerge.nuspec",
-        "tools/net452/ILMerge.exe",
-        "tools/net452/System.Compiler.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.1": {
@@ -5235,9 +5213,8 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
+    "net5.0-windows7.0": [
       "Costura.Fody >= 5.7.0",
-      "ILMerge >= 3.0.41",
       "War3Net.Drawing.Blp >= 5.6.1",
       "War3Net.IO.Mpq >= 5.6.1"
     ]
@@ -5264,7 +5241,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -5272,8 +5249,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows7.0",
           "projectReferences": {}
         }
       },
@@ -5289,18 +5266,14 @@
       }
     },
     "frameworks": {
-      "net6.0-windows7.0": {
-        "targetAlias": "net6.0-windows",
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows7.0",
         "dependencies": {
           "Costura.Fody": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.7.0, )"
-          },
-          "ILMerge": {
-            "target": "Package",
-            "version": "[3.0.41, )"
           },
           "War3Net.Drawing.Blp": {
             "target": "Package",

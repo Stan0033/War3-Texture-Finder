@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rJ5wmofMkO8=",
+  "dgSpecHash": "otVAxm1q/qQ=",
   "success": true,
   "projectFilePath": "C:\\Github\\War3-Texture-Finder\\W3 Texture Finder\\W3 Texture Finder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stan0033_laptop\\.nuget\\packages\\costura.fody\\5.7.0\\costura.fody.5.7.0.nupkg.sha512",
     "C:\\Users\\stan0033_laptop\\.nuget\\packages\\dotnetzip\\1.16.0\\dotnetzip.1.16.0.nupkg.sha512",
     "C:\\Users\\stan0033_laptop\\.nuget\\packages\\fody\\6.5.5\\fody.6.5.5.nupkg.sha512",
-    "C:\\Users\\stan0033_laptop\\.nuget\\packages\\ilmerge\\3.0.41\\ilmerge.3.0.41.nupkg.sha512",
     "C:\\Users\\stan0033_laptop\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.1\\microsoft.netcore.platforms.3.1.1.nupkg.sha512",
     "C:\\Users\\stan0033_laptop\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\stan0033_laptop\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
