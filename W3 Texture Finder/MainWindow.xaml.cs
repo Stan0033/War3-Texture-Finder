@@ -30,6 +30,7 @@ namespace W3_Texture_Finder
                 Resultbox.Items.Add(new ListBoxItem() { Content = s});
             }
             CollectFavourites();
+            Resized(null, null);
         }
         private void CollectFavourites()
         {
@@ -120,7 +121,7 @@ namespace W3_Texture_Finder
 
         private void Resized(object sender, SizeChangedEventArgs e)
         {
-            Resultbox.Height = LeftPanel.ActualHeight * 0.40;
+            Resultbox.Height = LeftPanel.ActualHeight * 0.43;
             ListFavourites.Height = LeftPanel.ActualHeight * 0.20;
         }
 
@@ -175,6 +176,16 @@ namespace W3_Texture_Finder
             if (ListFavourites.SelectedItems.Count != 1) { return; }
             string name = GetSelectedFav();
             Clipboard.SetText(FavouritesList[name]);
+        }
+
+        private void SelectedFav(object sender, RoutedEventArgs e)
+        {
+            if (ListFavourites.SelectedItems.Count != 1) { return; }
+            string name = GetSelectedFav();
+            if (FavouritesList.ContainsKey(name))
+            {
+                DisplayImage.Source = MPQHelper.GetImageSource(FavouritesList[name]);
+            }
         }
     }
 }

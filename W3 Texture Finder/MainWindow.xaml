@@ -32,7 +32,7 @@
                 </ListBox.ContextMenu>
             </ListBox>
             <TextBlock Text="Favourites"/>
-            <ListBox Name="ListFavourites" SelectionChanged="SelectedFav" Height="100" MouseDoubleClick="del">
+            <ListBox Name="ListFavourites" GotFocus="SelectedFav" SelectionChanged="SelectedFav" Height="100" MouseDoubleClick="del">
                 <ListBox.ContextMenu>
                     <ContextMenu>
                         <MenuItem Header="Copy path" Click="CopyFav"></MenuItem>
