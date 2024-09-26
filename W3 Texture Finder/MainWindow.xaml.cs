@@ -106,9 +106,27 @@ namespace W3_Texture_Finder
                 string searched = Searchbox.Text.Trim().ToLower();
                 if (searched.Length == 0)
                 {
+
+
                     foreach (string s in MPQHelper.Listfile_All)
                     {
-                        Resultbox.Items.Add(new ListBoxItem() { Content = s, Margin = new Thickness(0, 0, 5, 0) });
+                        if (Check_ExcludeIcons.IsChecked == true)
+                        {
+                            if (
+                                s.ToLower().Contains("ReplaceableTextures\\CommandButtonsDisabled\\DISBTN".ToLower()) == false &&
+                                s.ToLower().Contains("ReplaceableTextures\\CommandButtons\\BTN".ToLower()) == false &&
+                                s.ToLower().Contains("ReplaceableTextures\\PassiveButtons\\PASBTN".ToLower()) == false &&
+                                s.ToLower().Contains("UI\\Widgets\\BattleNet\\chaticons".ToLower()) == false
+                                )
+                            {
+                                Resultbox.Items.Add(new ListBoxItem() { Content = s, Margin = new Thickness(0, 0, 5, 0) });
+                            }
+
+                        }
+                        else
+                        {
+                            Resultbox.Items.Add(new ListBoxItem() { Content = s, Margin = new Thickness(0, 0, 5, 0) });
+                        }
                     }
                 }
                 else
