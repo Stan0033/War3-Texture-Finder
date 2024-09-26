@@ -7,11 +7,11 @@
         mc:Ignorable="d"
 
         SizeChanged="Resized"
-        Title="War3 Texture Finder for SD" Height="450" Width="800" MinHeight="450" MinWidth="800">
+        Title="War3 Texture Finder for SD" Height="450" Width="800" MinHeight="500" MinWidth="900">
     <Grid>
         <!-- Define column definitions with proportional width for dynamic resizing -->
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" MinWidth="260"/>
+            <ColumnDefinition Width="Auto" MinWidth="450"/>
             <!-- Fixed width for search and listbox -->
             <ColumnDefinition Width="*" MinWidth="260"/>
             <!-- Take remaining space for the canvas/image -->
@@ -21,7 +21,8 @@
         <StackPanel Name="LeftPanel" Grid.Column="0" Orientation="Vertical" Margin="10">
             <!-- Remove PlaceholderText and set MinWidth for better scaling -->
             <TextBox Name="Searchbox" Margin="0,0,0,10" MinWidth="150" MinHeight="20" KeyDown="Search"/>
-            <ListBox  Name="Resultbox"   Height="200"  Width="360"  SelectionChanged="SelectedItem"   >
+            <CheckBox Name="Check_ExcludeIcons">Exclude icons</CheckBox>
+            <ListBox  Name="Resultbox"   Height="200"  MinWidth="300"   SelectionChanged="SelectedItem" SelectionMode="Single" >
                 <ListBox.ContextMenu>
                     <ContextMenu>
                         <MenuItem Header="Copy path" Click="CopyName"></MenuItem>
@@ -31,16 +32,19 @@
                     </ContextMenu>
                 </ListBox.ContextMenu>
             </ListBox>
+            <Button Width="100" HorizontalAlignment="Right" Margin="2" Padding="2" Click="ScrollToSearch">Scroll to selected</Button>
             <TextBlock Text="Favourites"/>
-            <ListBox Name="ListFavourites" GotFocus="SelectedFav" SelectionChanged="SelectedFav" Height="100" MouseDoubleClick="del">
+            <ListBox Name="ListFavourites" GotFocus="SelectedFav" SelectionChanged="SelectedFav"
+                     SelectionMode="Single" Height="100" MinWidth="300"    MouseDoubleClick="del">
                 <ListBox.ContextMenu>
                     <ContextMenu>
                         <MenuItem Header="Copy path" Click="CopyFav"></MenuItem>
+                        <MenuItem Header="Find in resultbox" Click="FindInResultBox"></MenuItem>
                          
                     </ContextMenu>
                 </ListBox.ContextMenu>
             </ListBox>
-
+            <Button Width="100" HorizontalAlignment="Right" Margin="2" Padding="2" Click="ScrollToFav">Scroll to selected</Button>
         </StackPanel>
 
         <!-- Second Column: Canvas for Displaying Images -->

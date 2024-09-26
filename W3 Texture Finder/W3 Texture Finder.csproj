@@ -8,6 +8,9 @@
     <ImplicitUsings>disable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>search.ico</ApplicationIcon>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
+    <Copyright>stan0033</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
